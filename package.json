@@ -1,0 +1,25 @@
+{
+  "name": "ules-emailsender",
+  "version": "1.0.0",
+  "description": "'An email sender for the ULES wedding event'",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DabbyEmezue/ULES-Email-Sender.git"
+  },
+  "author": "Dabby Emezue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DabbyEmezue/ULES-Email-Sender/issues"
+  },
+  "homepage": "https://github.com/DabbyEmezue/ULES-Email-Sender#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22",
+    "xlsx": "^0.18.5"
+  }
+}
