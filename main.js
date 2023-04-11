@@ -8,6 +8,7 @@ const PORT = 3000;
 const dotenv = require("dotenv");
 dotenv.config();
 const uri = process.env.MONGODBURI;
+
 app.use(express.json());
 mongoose
   .connect(uri, { useNewUrlParser: true })
